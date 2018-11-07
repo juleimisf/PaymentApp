@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="panding_small">12dp</dimen>
+    <dimen name="panding_medium">18dp</dimen>
+    <dimen name="panding_big">36dp</dimen>
+    <dimen name="panding_min_smal">5dp</dimen>
+    <dimen name="tv_small">12sp</dimen>
+    <dimen name="tv_medium">16sp</dimen>
+    <dimen name="tv_big">24sp</dimen>
+    <dimen name="tv_extra_big">45sp</dimen>
+
+
+    //DrawerLayout
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="header_left_padding">16dp</dimen>
+    <dimen name="header_height">192dp</dimen>
+    <dimen name="perfil_image_size">60dp</dimen>
+    <dimen name="sticky_item_horizontalSpacing">2dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+
+</resources>

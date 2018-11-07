@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PaymentApp</string>
+
+    //DrawerLayout
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="notifications">Send me a notification</string>
+    <string name="tv_options">Options</string>
+    <string name="dl_star_proc">Iniciar proceso</string>
+    <string name="dl_sign_out">Cerrar sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //TextViews
+    <string name="tv_amount">Ingrese el monto deseado</string>
+    <string name="tv_type">Seleccione un método de pago</string>
+    <string name="tv_bank">Seleccione un banco</string>
+    <string name="tv_installment_title">Seleccione en cuantas cuotas quiere pagar</string>
+    <string name="tv_installment">Seleccione las cuotas</string>
+    <string name="tv_success_oayment">¡Tu pago fué realizado con éxito!</string>
+
+
+    //EditText
+    <string name="et_amount">Monto</string>
+
+    //Buttons
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_next">Siguiente</string>
+
+
+    //Errors
+    <string name="alert_error_amount">Ingrese un monto válido</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_alert_no_data">No existen registros</string>
+
+
+
+</resources>
