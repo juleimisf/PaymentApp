@@ -19,7 +19,7 @@ import com.paymentapp.cl.paymentapp.data.injector.module.CreatedPaymentModule;
 import com.paymentapp.cl.paymentapp.domain.model.CardRequest;
 import com.paymentapp.cl.paymentapp.data.view.CreatedPaymentContract;
 import com.paymentapp.cl.paymentapp.domain.presenter.CreatedPaymentPresenter;
-import com.paymentapp.cl.paymentapp.presentation.DialogFragment.SuccessDialogoFragment;
+import com.paymentapp.cl.paymentapp.presentation.dialogFragment.SuccessDialogoFragment;
 import com.paymentapp.cl.paymentapp.presentation.fragment.AmountFragment;
 import com.paymentapp.cl.paymentapp.presentation.fragment.InstallmentFragment;
 import com.paymentapp.cl.paymentapp.presentation.fragment.PaymentMethodFragment;

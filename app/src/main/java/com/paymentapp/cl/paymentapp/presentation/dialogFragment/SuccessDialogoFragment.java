@@ -1,4 +1,4 @@
-package com.paymentapp.cl.paymentapp.presentation.DialogFragment;
+package com.paymentapp.cl.paymentapp.presentation.dialogFragment;
 
 import android.app.Dialog;
 import android.content.Context;

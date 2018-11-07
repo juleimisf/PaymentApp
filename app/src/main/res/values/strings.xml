@@ -38,6 +38,10 @@
     <string name="action_settings">Settings</string>
     <string name="tv_alert_no_data">No existen registros</string>
 
+    //Alerts
+    <string name="progress">Cargando...</string>
+
+
 
 
 </resources>

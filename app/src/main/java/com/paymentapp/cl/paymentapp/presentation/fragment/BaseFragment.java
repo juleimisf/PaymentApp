@@ -61,7 +61,7 @@ public abstract class BaseFragment extends Fragment {
     public void showProgressDialog(Context context){
         Log.i(TAG, "showProgressDialogB: " + context);
         progress = new ProgressDialog(context);
-        progress.setMessage("Cargando...");
+        progress.setMessage(getResources().getString(R.string.progress));
         progress.show();
 
     }

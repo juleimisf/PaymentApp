@@ -52,7 +52,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     public void showProgressDialogB(Context context){
         progress = new ProgressDialog(context);
-        progress.setTitle("Cargando");
+        progress.setTitle(getResources().getString(R.string.progress));
         progress.show();
 
     }
