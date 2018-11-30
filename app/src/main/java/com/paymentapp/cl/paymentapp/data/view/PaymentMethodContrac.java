@@ -11,6 +11,8 @@ public interface PaymentMethodContrac {
         void showError(String message);
         void showListPaymentMethod(List<PaymentMethod> body);
         Context getContext();
+        void showProgress();
+        void hideProgress();
     }
 
     interface Presenter {

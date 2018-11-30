@@ -9,6 +9,7 @@ public class PaymentMethod {
     @SerializedName("id")
     @Expose
     public String id;
+    @IsDefined
     @SerializedName("name")
     @Expose
     public String name;
@@ -49,6 +50,23 @@ public class PaymentMethod {
     @Expose
     public List<String> processingModes = null;
 
+
+    public PaymentMethod(String id, String name, String paymentTypeId, String status, String secureThumbnail, String thumbnail, String deferredCapture, List<Setting> settings, List<String> additionalInfoNeeded, float minAllowedAmount, Integer maxAllowedAmount, Integer accreditationTime, List<FinancialInstitution> financialInstitutions, List<String> processingModes) {
+        this.id = id;
+        this.name = name;
+        this.paymentTypeId = paymentTypeId;
+        this.status = status;
+        this.secureThumbnail = secureThumbnail;
+        this.thumbnail = thumbnail;
+        this.deferredCapture = deferredCapture;
+        this.settings = settings;
+        this.additionalInfoNeeded = additionalInfoNeeded;
+        this.minAllowedAmount = minAllowedAmount;
+        this.maxAllowedAmount = maxAllowedAmount;
+        this.accreditationTime = accreditationTime;
+        this.financialInstitutions = financialInstitutions;
+        this.processingModes = processingModes;
+    }
 
     public String getId() {
         return id;

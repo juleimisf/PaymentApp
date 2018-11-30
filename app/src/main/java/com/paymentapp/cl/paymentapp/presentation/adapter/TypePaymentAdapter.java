@@ -46,7 +46,7 @@ public class TypePaymentAdapter extends RecyclerView.Adapter<TypePaymentViewHold
     @Override
     public void onBindViewHolder(@NonNull TypePaymentViewHolder holder, int position) {
         final PaymentMethod currentItem = mList.get(position);
-        holder.tv_type.setText(currentItem.getName());
+        holder.tv_type.setText(currentItem.getName().toLowerCase());
 
         Glide.with(context)
                 .load(currentItem.getSecureThumbnail())

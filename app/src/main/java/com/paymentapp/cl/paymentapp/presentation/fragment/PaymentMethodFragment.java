@@ -190,4 +190,16 @@ public class PaymentMethodFragment extends BaseFragment implements PaymentMethod
         TypePaymentAdapter typePaymentAdapter = new TypePaymentAdapter(getContext(), body, teamListener);
         rv_type_payment.setAdapter(typePaymentAdapter);
     }
+
+    @Override
+    public void showProgress() {
+        showProgress();
+
+    }
+
+    @Override
+    public void hideProgress() {
+        hideProgress();
+
+    }
 }

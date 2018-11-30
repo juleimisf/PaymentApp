@@ -17,7 +17,6 @@ public class AuthInterceptor implements Interceptor {
                 .header("Referer", token)
                 .header("Content-Type", "application/json")
                 .build();
-
         return  chain.proceed(newRequest);
     }
 }
